@@ -53,3 +53,4 @@
 - **Syntaxe intuitive et fonctionnalités clés conçues par l'équipe de développement**
 - Nécessite tout de même un ajout manuel pour des fonctionnalités un peu plus poussées
 - Moins de support et de soutien que les autres technologies
+- Moins de segmentation que react mais plus clair qu'angular
