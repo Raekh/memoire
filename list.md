@@ -12,15 +12,15 @@ Comment concevoir une interface et une source de données évolutives ? (bof bof
 
 # Compétences professionnelles acquises/en cours d'acquisition pour ce sujet ou projet d'étude
 2.1
-Mettre en place...
+- Mettre en place...
 
 3.1
-Interroger...
+- Interroger...
 
 4
-Développer des composants logiciels en environnement objet
-Réaliser... ~
-Concevoir... ~
+- Développer des composants logiciels en environnement objet
+- Réaliser... ~
+- Concevoir... ~
 
 
 # Ebauche de plan
