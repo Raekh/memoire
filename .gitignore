@@ -2,3 +2,4 @@ caca/
 pdf/
 ~*.docx
 ~*.xlsx
+GitStructure/node_modules

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+</head>
+<body>
+  
+  <div id="graph-container"></div>
+
+  
+  <script>
+    
+    const graphContainer = document.getElementById("graph-container");
+
+    
+    const gitgraph = GitgraphJS.createGitgraph(graphContainer);
+
+    
+    const master = gitgraph.branch("master");
+    master.commit("");
+
+    const develop = gitgraph.branch("develop");
+	develop.commit("");
+	
+	const vindes = gitgraph.branch("vindes");
+	const florou = gitgraph.branch("dev-florou");
+
+	florou.commit("");
+	vindes.commit("");
+
+	florou.commit("");
+
+
+	florou.commit("");
+	develop.merge(florou);
+	vindes.commit("");
+	develop.merge(vindes);
+	master.merge(develop);
+
+	
+
+
+
+    
+    master.merge(develop).tag("v1.0.0");
+  </script>
+</body>
+</html>
